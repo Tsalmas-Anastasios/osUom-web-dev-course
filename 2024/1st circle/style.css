@@ -1,0 +1,13 @@
+p {
+    color: green;
+}
+
+
+p.paragraph-class {
+    font-size: 25px;
+}
+
+
+#first-paragraph {
+    background-color: blue;
+}
