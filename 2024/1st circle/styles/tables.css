@@ -1,0 +1,13 @@
+ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+table {
+    border: 1px solid #000;
+}
+
+tr td {
+    border: 1px solid #000;
+}
