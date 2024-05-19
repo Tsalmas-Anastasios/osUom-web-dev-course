@@ -1,13 +1,45 @@
-p {
-    color: green;
+nav {
+    position: fixed;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
 }
 
 
-p.paragraph-class {
-    font-size: 25px;
+li {
+    background-color: black;
+
+    margin-right: 30px;
+}
+
+li:not(:first-child) {
+    margin-left: 30px;
+}
+
+li:not(:last-child) {
+    margin-right: 30px;
 }
 
 
-#first-paragraph {
-    background-color: blue;
+li a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+
+
+@media (max-width: 200px) {
+    li:not(:first-child) {
+        margin-left: 5px;
+    }
+
+    li:not(:last-child) {
+        margin-right: 5px;
+    }
 }
