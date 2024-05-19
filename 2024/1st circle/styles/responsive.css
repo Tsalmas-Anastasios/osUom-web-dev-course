@@ -1,0 +1,28 @@
+/* Βασικό στυλ για όλες τις συσκευές */
+.container {
+  padding: 20px;
+  background-color: white;
+}
+
+/* Στυλ για συσκευές με πλάτος μεγαλύτερο από 600px */
+@media (min-width: 600px) {
+  .container {
+    padding: 40px;
+    background-color: lightgray;
+  }
+}
+
+/* Στυλ για συσκευές με πλάτος μεγαλύτερο από 900px */
+@media (min-width: 900px) {
+  .container {
+    padding: 60px;
+    background-color: darkgray;
+  }
+}
+
+/* Στυλ για συσκευές με προσανατολισμό landscape */
+@media (orientation: landscape) {
+  .container {
+    background-color: lightblue;
+  }
+}
