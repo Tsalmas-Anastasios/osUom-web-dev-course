@@ -88,3 +88,12 @@ console.log(user1);
 console.log(user1?.age || 'non-exist');
 
 delete user1.password;
+
+
+
+
+
+
+
+const object_values = Object.values(auto_car_copy);         // ['123', '456', (), (), (), ()]
+const object_keys = Object.keys(auto_car_copy);             // ['name', 'model', 'start', 'drive', 'break', 'stop']
